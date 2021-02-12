@@ -6,6 +6,7 @@
     margin: 0;
     padding: 0;
     border: 1px solid black;
+    overflow-x: hidden;
   }
 
 
@@ -17,8 +18,48 @@ html {
 
 }
 
-div nav a {
-    width:3%;
+.links {
     display: flex;
     justify-content: flex-start;
+    padding: 2%;
+    margin-left: 2%;
 }
+
+nav div a {
+    padding: 1% 3%;
+}
+
+
+
+div h1 {
+    margin-left: 1%;
+    padding: 2%;
+}
+
+.biggerpic {
+    height: 90%;
+    width: 90%;
+    display: inline-block;
+}
+
+.words {
+    display: inline-block;
+    width: 20%;
+}
+
+.container {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 2%;
+    height: 500px;
+}
+
+.littlepics {
+    height: 5;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-right: 0;
+    flex-wrap: wrap;
+}
+
